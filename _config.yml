@@ -1,8 +1,11 @@
 # Site settings
 title: 果真的博客
 sub_title: 前端技术
+username: huangguozhen
 email: huangguozhen@outlook.com
-description: front-end development
+description: front-end dev
+
+timezone: Asia/Shanghai
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
