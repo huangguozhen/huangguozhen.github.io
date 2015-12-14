@@ -2,6 +2,8 @@
 layout: post
 title: Ubuntu14.04使用zsh和autojump
 date: 2015-12-12 20:19:38
+categories: 系统工具
+excerpt: 记录Linux下开发的一些工具
 ---
 
 * content
