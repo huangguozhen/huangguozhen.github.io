@@ -41,11 +41,21 @@
                     $(this).attr('target', '_blank');
                 });
             }
-
             //每次在有DOM插入时触发
             $(document).bind('DOMNodeInserted', function(event) {
                 addBlankTargetForLinks();
             });
+        </script>
+
+        <!-- Baidu统计 -->
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?d9515f06fa88e7fc83cdab0a3af6fadc";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
         </script>
     </body>
 </html>
