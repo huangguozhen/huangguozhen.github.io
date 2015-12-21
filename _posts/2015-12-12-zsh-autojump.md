@@ -26,9 +26,9 @@ excerpt: 记录Linux下开发的一些工具
     程名<TAB>，zsh 就会自动补全进程的 pid。
 
 5.  **支持更加聪明的目录补全**  
-    以前比如想进入一个比较深的目录，比如 /Users/pw/workspace/project/src/main/webapps/static/js，就得在 bash 下面
-    打半天，不停的 tab 去补全一个正确的路径出来。在 zsh 下，只需要输入每个路径的头字母然后 tab 一下：
-    cd /u/p/w/p/s/m/w/s/j<TAB>
+    以前比如想进入一个比较深的目录，比如 /Users/pw/workspace/project/ \
+    src/main/webapps/static/js，就得在 bash 下面打半天，不停的 tab 去补全一个正确的路径出来。在 zsh 下，只需要输
+    入每个路径的头字母然后 tab 一下： cd /u/p/w/p/s/m/w/s/j<TAB>
 
 6.  **强大的快速目录切换**  
     以前最苦逼的事情莫过于频繁在两个工作目录下切换，总要打一长串 cd 路径。也尝试过 popd 和 pushd 来解决这个问题，
@@ -85,6 +85,9 @@ Oh My Zsh 是一个开源的，社区驱动的Zsh配置管理框架。
 
     ZSH_THEME="agnoster" #我目前用的就是这个主题（需要powerline字库支持）
 
+agnoster主题：
+![zsh theme](/assets/img/agnoster.png)
+
 ### 自定义主题和插件
 如果你想重写默认zsh行为，只需要把相应.zsh后缀的文件添加到custom/目录即可。
 
@@ -113,3 +116,5 @@ Oh My Zsh 是一个开源的，社区驱动的Zsh配置管理框架。
 
     cd autojump
     ./install.py or ./uninstall.py
+
+使用j target_path可以直接跳转到目标路径
